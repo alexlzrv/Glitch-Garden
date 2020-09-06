@@ -406,6 +406,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 674009694}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1499217272 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2242416925646038509, guid: 94d2e1730588b408dbbac4a10dda6ceb,
+    type: 3}
+  m_PrefabInstance: {fileID: 3160043704108530457}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1610993795
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -764,10 +770,46 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 76730674035558839, guid: 94d2e1730588b408dbbac4a10dda6ceb,
+        type: 3}
+      propertyPath: projectile
+      value: 
+      objectReference: {fileID: 2695138363740526983, guid: aa6b549f6ec4542389ad362b2189b9af,
+        type: 3}
+    - target: {fileID: 76730674035558839, guid: 94d2e1730588b408dbbac4a10dda6ceb,
+        type: 3}
+      propertyPath: gun
+      value: 
+      objectReference: {fileID: 1499217272}
+    - target: {fileID: 2787967988498720461, guid: 94d2e1730588b408dbbac4a10dda6ceb,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.465
+      objectReference: {fileID: 0}
+    - target: {fileID: 2787967988498720461, guid: 94d2e1730588b408dbbac4a10dda6ceb,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.041
+      objectReference: {fileID: 0}
     - target: {fileID: 3160043704972881670, guid: 94d2e1730588b408dbbac4a10dda6ceb,
         type: 3}
       propertyPath: m_Name
       value: Cactus
+      objectReference: {fileID: 0}
+    - target: {fileID: 3160043704972881721, guid: 94d2e1730588b408dbbac4a10dda6ceb,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3160043704972881721, guid: 94d2e1730588b408dbbac4a10dda6ceb,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3160043704972881721, guid: 94d2e1730588b408dbbac4a10dda6ceb,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3160043704972881723, guid: 94d2e1730588b408dbbac4a10dda6ceb,
         type: 3}

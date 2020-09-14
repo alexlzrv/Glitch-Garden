@@ -2,16 +2,20 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DefenderBurtton : MonoBehaviour
+public class DefenderButton : MonoBehaviour
 {
+    [SerializeField] Defender defenderPrefabs;
+
     private void OnMouseDown()
     {
-        var buttons = FindObjectsOfType<DefenderBurtton>();
-        foreach(DefenderBurtton button in buttons)
+        var buttons = FindObjectsOfType<DefenderButton>();
+        foreach(DefenderButton button in buttons)
         {
             button.GetComponent<SpriteRenderer>().color = new Color32(41, 41, 41, 255);
         }
 
         GetComponent<SpriteRenderer>().color = Color.white;
+
+        FindObjectOfType<DefenderSpawner>().SetSelectedDefender(defenderPrefabs);
     }
 }

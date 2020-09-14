@@ -312,9 +312,11 @@
 /define:CSHARP_7_3_OR_NEWER
 "Assets/Scripts/Attacker.cs"
 "Assets/Scripts/AttackerSpawner.cs"
-"Assets/Scripts/DefenderBurtton.cs"
+"Assets/Scripts/Defender.cs"
+"Assets/Scripts/DefenderButton.cs"
 "Assets/Scripts/DefenderSpawner.cs"
 "Assets/Scripts/Health.cs"
 "Assets/Scripts/LoadScene.cs"
 "Assets/Scripts/Projectile.cs"
 "Assets/Scripts/Shooter.cs"
+"Assets/Scripts/StarDisplay.cs"

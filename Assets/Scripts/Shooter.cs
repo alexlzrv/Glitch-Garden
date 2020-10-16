@@ -20,7 +20,7 @@ public class Shooter : MonoBehaviour
             animator.SetBool("IsAttacking", true);
         }
         else {
-            animator.SetBool("IsAttacking", false);  
+            animator.SetBool("IsAttacking", false);
         }
     }
 

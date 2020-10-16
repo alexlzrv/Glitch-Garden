@@ -269,7 +269,7 @@ Transform:
   - {fileID: 1961528416}
   - {fileID: 481545259}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &354756549
 GameObject:
@@ -596,7 +596,7 @@ PrefabInstance:
     - target: {fileID: 5063743739472037772, guid: 763f69896a9b14237adf854e61bcb8c2,
         type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 5063743739472037772, guid: 763f69896a9b14237adf854e61bcb8c2,
         type: 3}
@@ -1518,6 +1518,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Canvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 3117881401544505172, guid: c0dc9a74736774764916ecf6b18ba5ef,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c0dc9a74736774764916ecf6b18ba5ef, type: 3}

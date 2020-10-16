@@ -9,9 +9,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3963949514941500265}
-  - component: {fileID: 3963949514941500264}
   - component: {fileID: 3963949514941500267}
   - component: {fileID: 3963949514941500266}
+  - component: {fileID: 3289018824377170709}
   m_Layer: 0
   m_Name: Body
   m_TagString: Untagged
@@ -34,25 +34,6 @@ Transform:
   m_Father: {fileID: 878317161233766273}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!95 &3963949514941500264
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3963949514941500269}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 32beff7e3dada4ae2823eb1e2a30959c, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!212 &3963949514941500267
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -116,9 +97,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 518c42ad0ecec4a399c12e27a4aac17f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  projectile: {fileID: 2695138363740526983, guid: aa6b549f6ec4542389ad362b2189b9af,
+  projectile: {fileID: 8568326678932453488, guid: 262e6693a30dc46069da75c23d8f5de9,
     type: 3}
   gun: {fileID: 3963949514999312918}
+--- !u!95 &3289018824377170709
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3963949514941500269}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 32beff7e3dada4ae2823eb1e2a30959c, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &3963949514999312918
 GameObject:
   m_ObjectHideFlags: 0
@@ -143,7 +143,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3963949514999312918}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.392, y: 0.049, z: 0}
+  m_LocalPosition: {x: -0.191, y: -0.082, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 3963949514941500265}
@@ -160,7 +160,6 @@ GameObject:
   - component: {fileID: 878317161233766273}
   - component: {fileID: 5854986248282638845}
   - component: {fileID: 421905488629739803}
-  - component: {fileID: 242885835}
   m_Layer: 0
   m_Name: Gnome
   m_TagString: Untagged
@@ -222,22 +221,3 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.0218267, y: 0.9927242}
   m_EdgeRadius: 0
---- !u!95 &242885835
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8205582962396199853}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 32beff7e3dada4ae2823eb1e2a30959c, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0

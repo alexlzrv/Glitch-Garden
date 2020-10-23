@@ -1,18 +1,18 @@
 ﻿<Properties StartupConfiguration="{BCB3E3EB-E953-C502-0FAB-AAA076AEC0FE}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Attacker.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Shooter.cs">
     <Files>
-      <File FileName="Assets/Scripts/Shooter.cs" Line="20" Column="51" />
-      <File FileName="Assets/Scripts/Attacker.cs" Line="8" Column="29" />
-      <File FileName="Assets/Scripts/Defender.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Lizard.cs" Line="14" Column="2" />
-      <File FileName="Assets/Scripts/Projectile.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Health.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/AttackerSpawner.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Shooter.cs" Line="32" Column="6" />
+      <File FileName="Assets/Scripts/Attacker.cs" />
+      <File FileName="Assets/Scripts/Defender.cs" />
+      <File FileName="Assets/Scripts/Lizard.cs" />
+      <File FileName="Assets/Scripts/Projectile.cs" />
+      <File FileName="Assets/Scripts/Health.cs" />
+      <File FileName="Assets/Scripts/AttackerSpawner.cs" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="d72e4fe4-c602-4384-80b8-a59e90facf4b" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="3ec1f0a5-9b55-4b39-8b0e-5a25312391ed" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -31,4 +31,7 @@ public class LoadScene : MonoBehaviour
     {
         SceneManager.LoadScene(currentIndex + 1);
     }
+    public void LoadGameOver() {
+        SceneManager.LoadScene("Start menu");
+    }
 }

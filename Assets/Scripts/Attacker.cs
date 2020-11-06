@@ -10,6 +10,15 @@ public class Attacker : MonoBehaviour
     GameObject currentTarget;
     Health health;
 
+
+    private void Awake() {
+        FindObjectOfType<LevelController>().AttackersSpawned();
+    }
+
+    private void OnDestroy() {
+        FindObjectOfType<LevelController>().AttackersKilled();
+    }
+
     void Update() {
         transform.Translate(Vector2.left * Time.deltaTime * currentSpeed);
         UpdateAnimationState();

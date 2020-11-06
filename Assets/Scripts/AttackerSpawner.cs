@@ -10,6 +10,10 @@ public class AttackerSpawner : MonoBehaviour
 
     bool spawn = true;
 
+    public void StopSpawning() {
+        spawn = false;
+    }
+
     IEnumerator Start()
     {
         while (spawn)

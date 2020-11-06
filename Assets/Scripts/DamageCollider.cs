@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class DamageCollider : MonoBehaviour {
 
-    private void OnTriggerEnter2D() {
+    private void OnTriggerEnter2D(Collider2D otherCollider) {
         FindObjectOfType<Lives>().TakeLives();
+        Destroy(otherCollider.gameObject);
     }
 }

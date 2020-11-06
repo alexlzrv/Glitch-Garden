@@ -24,14 +24,25 @@ public class LoadScene : MonoBehaviour
     IEnumerator WaitForTime()
     {
         yield return new WaitForSeconds(timeForWait);
-        LoadNExtScene();
+        LoadNextScene();
     }
 
-    private void LoadNExtScene()
+    public void LoadNextScene()
     {
         SceneManager.LoadScene(currentIndex + 1);
     }
-    public void LoadGameOver() {
+
+    public void RestartScene() {
+        Time.timeScale = 1;
+        SceneManager.LoadScene(currentIndex);
+    }
+
+    public void LoadMainMenu() {
+        Time.timeScale = 1;
         SceneManager.LoadScene("Start menu");
+    }
+
+    public void QuitGame() {
+        Application.Quit();
     }
 }
